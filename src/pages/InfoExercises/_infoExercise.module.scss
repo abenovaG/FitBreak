@@ -1,0 +1,64 @@
+.infoExercise {
+  width: 1100px;
+  margin: 0 auto;
+  height: 650px;
+  &_withoutFlexDirection {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_img video {
+    width: 350px;
+    height: 220px;
+  }
+  &_text{
+   .text_name {
+     display: flex;
+     align-items: center;
+     margin-bottom: 28px;
+     gap: 20px;
+     h3 {
+       font-weight: 700;
+       font-size: 30px;
+       color: black;
+     }
+     p{
+       font-weight: 400;
+       font-size: 25px;
+       color: black;
+     }
+   }
+  }
+  &_inst {
+    div {
+      display: flex;
+      gap: 15px;
+
+      div {
+        margin-bottom: 30px;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid #0D98E9FF;
+        background: #019CF4FF;
+
+        span {
+          position: absolute;
+          width: 1px;
+          top: 30px;
+          left: 14px;
+          height: 40px;
+          transform: rotate(180deg);
+          background: #019CF4FF;
+        }
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 25px;
+      }
+    }
+  }
+}
